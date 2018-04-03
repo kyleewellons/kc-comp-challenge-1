@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 20%;
+  margin-top: 50%;
+}
+
+p {
+  font-family: 'Vollkorn', serif;
+  font-size: 0.5em;
+  margin: 15px 15px 15px 15px;
+}
+
+h1 {
+  margin: 25px 15px 15px 15px;
+}
+
+button {
+  border: solid 2px;
+  height: 45px;
+  width: 100px;
+  background-color: transparent;
+  margin-left: 20px;
+  font-size: 20px;
+  font-size: 20px;
+}
+
+button:hover {
+  background: rgba(10,0,0,0);
+  color: invert;
+  
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 60%;
+}
+
+.container2 {
+  position: absolute;
+  height: 100vh;
+  width:40.5%;
+  background-image: url("Images/Badu.png");
+  top: 0;
+  right: 5px;
+  background-position: right 50% bottom 100%;
+  background-size: cover;
+}
+
+.box { 
+  width: 33.3%; 
+  text-align: center;
+}
+
+.box:hover {
+  background: rgba(0,0,0,0);
+  color: invert;
+  
+
+}
+
+
+.box-one {
+  width: 66.6%;
+  background-color:  #785964;
+  font-family: 'Unica One', cursive;
+  text-align: left;
+  font-size: 2em;
+}
+
+.box-two { 
+background-color: #483d3f;
+}
+
+.box-three {
+background-color: #483d3f;
+}
+
+.box-four {
+background-color: #D5C7BC;
+}
+
+.box-five  #785964;
+}
+
+.box-six {
+background-color: #FFC857;
+}
+
+.box-seven {
+background-color: #483d3f; 
+}
+
+.box-eight {
+background-color: #FFC857;
+}
+
+
+
+.left-arrow {
+  margin-top: 70%;
+  height: 50px;
+  width: 50px;
+
+
+}
+
+.right-arrow {
+  float: right;
+  margin-top: 70%;
+  height: 50px;
+  width: 50px;
+
+}
+
+@media screen and (max-width: 650px) {
+.box1 {
+  width: 100%;
+  
+}
+
+.flex-container {
+  width:100%;
+  margin-top: 50%;
+}
+
+.container2 {
+    width:120%;
+    position: fixed;  
+    height: 30vh;
+    margin: -10px;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .box1 {
+    width: 99.6%;
+    text-align: center;
+  }
+
+  img {
+    margin: 25%;
+   
+  }
+
+
+  h1{
+    margin-bottom: 3%;
+    margin-top: 5%;
+  }
+
+  p {
+  font-size: 14px;
+  }
+
+  button {
+display: inline-block;
+margin: 10px 10px 10px 60px;
+  }
+
+  
